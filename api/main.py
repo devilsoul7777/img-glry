@@ -1,8 +1,8 @@
 import os
 import requests
-from flask import Flask, request
-from dotenv import load_dotenv
-from flask_cors import CORS
+from flask import Flask, request  # pylint: disable=import-error
+from dotenv import load_dotenv  # pylint: disable=import-error
+from flask_cors import CORS  # pylint: disable=import-error
 
 load_dotenv(dotenv_path="./.env.local")
 
